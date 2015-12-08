@@ -1,3 +1,47 @@
-.navbar-brand{
+/*header样式*/
+.topnav {
+    background-color: #f2f6f6;
+}
+.brand{
+    width: 184px;
+    height: 50px;
+    background-color: #23272b;
+    padding-left: 9px;
+}
+.brand-logo{
+    width:41px;
+    height:40px;
     background: url(../images/logo.png) no-repeat;
+    background-size: contain;
+}
+#main-nav,#top-nav{
+    float:right;
+}
+#main-nav{
+    padding: 0 25px 0 44px;
+}
+#top-nav li a,#main-nav li a {
+    text-transform: uppercase;
+    color: #272323;
+    font-size: 15px;
+}
+#main-nav i{
+    line-height: 50px;
+    padding: 0 9px 0 15px;
+}
+#user-box i{
+    float:left;
+}
+.userAccount{
+    float: left;
+    padding: 15px 11px;
+}
+.subscribe {
+    background-color: rgb(132, 195, 234);
+    height: 50px;
+    line-height: 50px;
+    padding: 0 13px;
+}
+.subscribe a{
+    color: #fff !important;
 }

@@ -39,19 +39,58 @@
             </button>
             <!--logo图标-->
             <div class="brand">
-                <a class="navbar-brand" href="#"></a>
+                <a class="navbar-brand" href="#">
+                    <div class="brand-logo"></div>
+                </a>
             </div>
         </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <!--导航-->
+        <div class="collapse navbar-collapse" id="main-nav">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contack</a></li>
+                <li>
+                    <div class="subscribe">
+                        <a href="#">Subscribe</a>
+                    </div>
+                </li>
+                <li>
+                    <i class="fa fa-github fa-2x"></i>
+                </li>
+                <li>
+                    <div class="dropdown" id="user-box">
+                        <i class="fa fa-github fa-2x"></i>
+                        <div class="userAccount"  id="dropdownMenu1" data-toggle="dropdown">
+                            <span>Lidan</span>
+                            <span class="caret"></span>
+                        </div>
+                        <ul class="dropdown-menu text-right" role="menu" aria-labelledby="dropdownMenu1">
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">My Accout</a></li>
+                            <li role="presentation" class="divider"></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Sign Out</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!--用户信息-->
+        <div class="collapse navbar-collapse" id="top-nav">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Studio</a></li>
+                <li><a href="#">Exchange</a></li>
+                <li><a href="#">Seeds</a></li>
+                <li><a href="#">Store</a></li>
+                <li><a href="#">Help</a></li>
             </ul>
         </div>
     </div>
 </nav>
 <!--header end-->
+
+<!--page-->
+<div class="content">
+
+</div>
+<!--page end-->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
 </body>
-<!-- END BODY -->
 </html>
